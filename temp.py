@@ -1,5 +1,7 @@
-fahrenheit = celsius * 9/5 + 3
-returnfahrenheit
+def celsius_to_fahrenheit(celsius):
+    """ given a celsius value return the conversion"""
+    fahrenheit = celsius * 9/5 + 32
+    return fahrenheit
 
 def f_to_c(f):
     """given a fahrenheit value return the converted value"""
